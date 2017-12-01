@@ -33,9 +33,17 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://danbrunskill.github.io/photorama/gallery/"  
-  - JOURNAL: "https://danbrunskill.github.io/photorama/journal/"
-  - ABOUT: "https://danbrunskill.github.io/photorama/about/"
+  - Bark in the Park: "https://danbrunskill.github.io/barkinthepark/"  
+  - WEC Betel: "https://danbrunskill.github.io/betel/"
+  - Portraits: "https://danbrunskill.github.io/portraits/"
+  - Bark in the Pool: "https://danbrunskill.github.io/barkinthepool/"
+  - Burning Man Dance : "https://danbrunskill.github.io/burningman/"
+  - Ice Cube : "https://danbrunskill.github.io/icecube/"
+  
+  
+ 
+  
+  
 
 # All translation keys
 translations:
