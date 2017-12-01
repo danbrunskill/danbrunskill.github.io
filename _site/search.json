@@ -1,0 +1,108 @@
+[
+  
+    {
+      "title"    : "Alice in Wonderland",
+      "category" : "",
+      "tags"     : "tag01, tag02",
+      "url"      : "/journal/Alice-in-Wonderland/",
+      "date"     : "2016-03-25 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "The Scarlet Plague",
+      "category" : "",
+      "tags"     : "tag03, tag04",
+      "url"      : "/journal/The-Scarlet-Plague/",
+      "date"     : "2016-03-20 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "The Wizard of Oz",
+      "category" : "",
+      "tags"     : "tag03, tag04",
+      "url"      : "/journal/The-Wizard-of-Oz/",
+      "date"     : "2016-03-15 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "At the Earth&#39;s Core",
+      "category" : "",
+      "tags"     : "tag01",
+      "url"      : "/journal/At-the-Earth's-Core/",
+      "date"     : "2016-03-10 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "Moby Dick",
+      "category" : "",
+      "tags"     : "tag02",
+      "url"      : "/journal/Moby-Dick/",
+      "date"     : "2016-03-05 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "Around the World in 80 Days",
+      "category" : "",
+      "tags"     : "tag03",
+      "url"      : "/journal/Around-the-World-in-80-Days/",
+      "date"     : "2016-03-01 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "BLOG IMAGE PERFORMANCE IS NECESSARY",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/journal/images-size-for-better-performance/",
+      "date"     : "2016-02-01 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } ,
+  
+    {
+      "title"    : "Multiple Galleries",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/journal/multiple-galleries/",
+      "date"     : "2016-02-01 00:00:00 +1300",
+      "content"   : "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\"   : {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil %}\n        \"title\"    : \"{{ page.title | escape }}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\"   : {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]"
+    } 
+  
+  ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Search",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/search/",
+        "date"     : "",
+        "content"   : "<style type=\"text/css\">\n            \n      #search-input {\n        display: inline-block;\n        color: #008989;\n        background-color: #12161d;\n        border-color: #223333;\n        padding: .5em;\n        width: 100%;\n        font-size: 0.8em;\n      }\n        \n         #search-input:focus {\n        display: inline-block;\n        color: #ddd;\n        background-color: #12161d;\n        border-color: #223333;\n        border-width: thick;\n        border-style: outset;\n        box-shadow: -1px 1px 5px 5px #008989;\n        outline: 0;\n        width: 100%;\n        font-size: 0.8em;\n              }\n\n    </style>\n\n<!-- Html Elements for Search -->\n<input type=\"text\" id=\"search-input\" placeholder=\"Enter keywords...\">\n<ul id=\"results-container\" style=\"list-style-type: none;\"></ul>    \n\n<!-- Script pointing to jekyll-search.js -->\n<script src=\"/js/jekyll-search.js\" type=\"text/javascript\"></script>\n\n\n    <script type=\"text/javascript\">\n      SimpleJekyllSearch({\n        searchInput: document.getElementById('search-input'),\n        resultsContainer: document.getElementById('results-container'),\n        json: '/search.json',\n        searchResultTemplate: '<li><a href=\"{url}\" title=\"{desc}\">{title}</a></li>',\n        noResultsText: 'No results found',\n        limit: 10,\n        fuzzy: true,\n        exclude: ['Welcome']\n      })\n    </script>\n\n<br>\n  <div id=\"tags\">\n  \t<h5>tag cloud</h5>\n   \n\n <span class=\"site-tag\">\n    <a href=\"/journal/tag/tag01/\"\n        style=\"font-size: 88%\">\n            tag01 (2)\n    </a>\n</span>&nbsp;\n <span class=\"site-tag\">\n    <a href=\"/journal/tag/tag02/\"\n        style=\"font-size: 88%\">\n            tag02 (2)\n    </a>\n</span>&nbsp;\n <span class=\"site-tag\">\n    <a href=\"/journal/tag/tag03/\"\n        style=\"font-size: 92%\">\n            tag03 (3)\n    </a>\n</span>&nbsp;\n <span class=\"site-tag\">\n    <a href=\"/journal/tag/tag04/\"\n        style=\"font-size: 88%\">\n            tag04 (2)\n    </a>\n</span>\n\n</div>\n\n\n<style>\n.site-tag a {\n    display: inline-block;\n    margin-right: 12px;\n}\n</style>\n\n<br>\n  <div id=\"categories\">\n  \t<h5>categories</h5>\n   \n\n <span class=\"site-category\">\n    <a href=\"/journal/category/cat01/\">\n            cat01 (1)\n    </a>\n</span>&nbsp;\n <span class=\"site-category\">\n    <a href=\"/journal/category/cat02/\">\n            cat02 (2)\n    </a>\n</span>&nbsp;\n <span class=\"site-category\">\n    <a href=\"/journal/category/cat03/\">\n            cat03 (3)\n    </a>\n</span>&nbsp;\n <span class=\"site-category\">\n    <a href=\"/journal/category/cat04/\">\n            cat04 (3)\n    </a>\n</span>\n\n</div>\n\n\n<br>\n<h6>Image Source: <a href=\"https://unsplash.com/photos/I_LgQ8JZFGE\">UNSPLASH</a>\n\n\n<style>\n.site-category a {\n    display: inline-block;\n    margin-right: 12px;\n}\n</style>\n\n\n\n"
+     
+   } ,
+  
+   {
+     
+   } 
+  
+]

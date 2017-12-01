@@ -3,7 +3,7 @@ title: Dan Brunskill Photography
 email: "d.brunskill@gmail.com"
 description: "Photo Journal"
 url: "https://danbrunskill.github.io"
-baseurl: "/"
+baseurl: ""
 facebook_username: ""
 twitter_username: "@danbrunskill_"
 instagram_username: "@danielbrunskill"
@@ -65,7 +65,6 @@ permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
 gems: 
- - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # SiteMap
@@ -75,7 +74,5 @@ sitemap:
         - "/atom.xml"
         - "/feed.xml"
         - "/feed/index.xml"
-    include_posts:
-        - "/writing/"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
